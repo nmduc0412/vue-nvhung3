@@ -1,0 +1,80 @@
+/*
+ * Icon ngôn ngữ
+ */
+ .icon-vi {
+  height: 16px;
+  background-image: url("/src/assets/icons/lang_VIIcon.svg");
+}
+
+.icon-en {
+  height: 16px;
+  background-image: url("/src/assets/icons/lang_ENIcon.svg");
+}
+
+/*
+ * Icon reactions
+ */
+.icon-like {
+  background-image: url("/src/assets/icons/reactions/like.svg");
+}
+
+.icon-love {
+  background-image: url("/src/assets/icons/reactions/love.svg");
+}
+
+.icon-care {
+  background-image: url("/src/assets/icons/reactions/care.svg");
+}
+.icon-haha {
+  background-image: url("/src/assets/icons/reactions/haha.svg");
+}
+.icon-wow {
+  background-image: url("/src/assets/icons/reactions/wow.svg");
+}
+.icon-sad {
+  background-image: url("/src/assets/icons/reactions/sad.svg");
+}
+.icon-angry {
+  background-image: url("/src/assets/icons/reactions/angry.svg");
+}
+.icon-check {
+  background-image: url("/src/assets/icons/ActiveCheckIcon.svg");
+}
+
+/* Icon Service Type */
+.icon-buff-like {
+  background-image: url("/src/assets/icons/service-type/icon-buff-like.svg");
+}
+.icon-buff-view {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  background-image: url("/src/assets/icons/service-type/icon-buff-view.svg");
+}
+.icon-buff-comment {
+  background-image: url("/src/assets/icons/service-type/icon-buff-comment.svg");
+}
+.icon-buff-search {
+  background-image: url("/src/assets/icons/service-type/icon-buff-search.svg");
+}
+.icon-buff-follow {
+  background-image: url("/src/assets/icons/service-type/icon-buff-follow.svg");
+}
+.icon-share {
+  background-image: url("/src/assets/icons/service-type/icon-share.svg");
+}
+.icon-buff-recommend {
+  background-image: url("/src/assets/icons/service-type/icon-buff-recommend.svg");
+}
+.icon-buff-eye {
+  background-image: url("/src/assets/icons/service-type/icon-buff-eye.svg");
+}
+.icon-like-page {
+  background-image: url("/src/assets/icons/service-type/icon-like-page.svg");
+}
+.icon-vip-like {
+  background-image: url("/src/assets/icons/service-type/icon-vip-like.svg");
+}
+.icon-member-group {
+  background-image: url("/src/assets/icons/service-type/icon-member-group.svg");
+}

@@ -1,0 +1,39 @@
+1. Localize
+- Key in vi/en.json: "Hello" : "Hello {msg}",
+- Use in html: {{$t('Hello', { msg: 'NMDUC' }) }}
+- Use in js: 
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+t('Hello', { msg: 'NMDUC' })
+
+- Key in vi/en.json: "Hello" : "Hello {0}",
+- Use in html: {{$t('Hello', ['NMDUC']) }}
+- Use in js: 
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+t('Hello', ['NMDUC'])
+
+2. Structure
+
+src -- apis => Chứa lời gọi api lên server
+    -- assets => Chứa các file tĩnh : icons, styles, themes
+    -- base ----------------------- apis => Xử lý httpClient để gọi api, Xử lý Request và Response
+            ----------------------- components => BaseComponent dùng chung 
+            ----------------------- functions
+            ----------------------- icon
+            ----------------------- scss
+            ----------------------- services => Truyền nhận dữ liệu giữa các component
+            ----------------------- shared => Constants, models, enums
+            ----------------------- toast => Thông báo message
+    -- commons
+    -- components
+    -- composables
+    -- docs
+    -- layouts
+    -- locales
+    -- plugins
+    -- router
+    -- store
+    -- views
+    -- App.vue
+    -- main.ts

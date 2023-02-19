@@ -1,0 +1,61 @@
+@import "./base.css";
+@import "./dx-custom-style.scss";
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #666;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.container .row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container .column {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: inline-block;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 4px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

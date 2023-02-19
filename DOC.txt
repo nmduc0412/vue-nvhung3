@@ -1,0 +1,9 @@
+VueJS
+- Init project:  npm init vue@latest
+npm init vue@latest
+npm install devextreme@22.1 devextreme-vue@22.1 --save --save-exact
+npm add -D sass
+- Component : Pascal case
+- Naming Convetion: BaseInput, BasePopup,
+UsersList, UsersDetail,...
+- Composable: Naming : FetchPostComposable.js , function useFetchPost

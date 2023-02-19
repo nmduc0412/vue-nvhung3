@@ -1,0 +1,184 @@
+/*
+ * Icon ngôn ngữ
+ */
+.icon-vi {
+  height: 16px;
+  background-image: url("/src/assets/icons/lang_VIIcon.svg");
+}
+
+.icon-en {
+  height: 16px;
+  background-image: url("/src/assets/icons/lang_ENIcon.svg");
+}
+
+/*
+ * Icon reactions
+ */
+.icon-like {
+  background-image: url("/src/assets/icons/reactions/like.svg");
+}
+
+.icon-love {
+  background-image: url("/src/assets/icons/reactions/love.svg");
+}
+
+.icon-care {
+  background-image: url("/src/assets/icons/reactions/care.svg");
+}
+.icon-haha {
+  background-image: url("/src/assets/icons/reactions/haha.svg");
+}
+.icon-wow {
+  background-image: url("/src/assets/icons/reactions/wow.svg");
+}
+.icon-sad {
+  background-image: url("/src/assets/icons/reactions/sad.svg");
+}
+.icon-angry {
+  background-image: url("/src/assets/icons/reactions/angry.svg");
+}
+.icon-check {
+  background-image: url("/src/assets/icons/ActiveCheckIcon.svg");
+}
+
+/* Icon Service Type */
+.icon-buff-like {
+  background-image: url("/src/assets/icons/service-type/icon-buff-like.svg");
+}
+.icon-buff-view {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  background-image: url("/src/assets/icons/service-type/icon-buff-view.svg");
+}
+.icon-buff-comment {
+  background-image: url("/src/assets/icons/service-type/icon-buff-comment.svg");
+}
+.icon-buff-search {
+  background-image: url("/src/assets/icons/service-type/icon-buff-search.svg");
+}
+.icon-buff-follow {
+  background-image: url("/src/assets/icons/service-type/icon-buff-follow.svg");
+}
+.icon-share {
+  background-image: url("/src/assets/icons/service-type/icon-share.svg");
+}
+.icon-buff-recommend {
+  background-image: url("/src/assets/icons/service-type/icon-buff-recommend.svg");
+}
+.icon-buff-eye {
+  background-image: url("/src/assets/icons/service-type/icon-buff-eye.svg");
+}
+.icon-like-page {
+  background-image: url("/src/assets/icons/service-type/icon-like-page.svg");
+}
+.icon-vip-like {
+  background-image: url("/src/assets/icons/service-type/icon-vip-like.svg");
+}
+.icon-member-group {
+  background-image: url("/src/assets/icons/service-type/icon-member-group.svg");
+}
+
+/* 
+ * Icon Sidebar 
+ */
+.icon-home{
+  background-image: url("/src/assets/icons/sidebar/home.svg");
+}
+.icon-facebook {
+  background-image: url("/src/assets/icons/sidebar/facebook.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-tiktok {
+  background-image: url("/src/assets/icons/sidebar/tiktok.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-instagram {
+  background-image: url("/src/assets/icons/sidebar/instagram.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-shopee {
+  background-image: url("/src/assets/icons/sidebar/shopee.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-lazada {
+  background-image: url("/src/assets/icons/sidebar/lazada.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-youtube {
+  background-image: url("/src/assets/icons/sidebar/youtube.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+.icon-comment {
+  background-image: url("/src/assets/icons/sidebar/comment.svg");
+}
+.icon-money {
+  background-image: url("/src/assets/icons/sidebar/money.svg");
+  width: 20px;
+  min-width: 20px;
+  height: 22px;
+}
+.icon-order {
+  background-image: url("/src/assets/icons/sidebar/order.svg");
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
+}
+.icon-giftcode {
+  background-image: url("/src/assets/icons/sidebar/giftcode.svg");
+}
+.icon-group {
+  background-image: url("/src/assets/icons/sidebar/group.svg");
+}
+.icon-download {
+  background-image: url("/src/assets/icons/sidebar/download.svg");
+}
+.icon-profile {
+  background-image: url("/src/assets/icons/sidebar/profile.svg");
+}
+.icon-logout {
+  background-image: url("/src/assets/icons/sidebar/logout.svg");
+}
+.icon-document {
+  background-image: url("/src/assets/icons/sidebar/document.svg");
+}
+
+.icon-avatar {
+  background-image: url("/src/assets/icons/profile.svg");
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+}
+
+.icon-logo{
+  background-image: url("/src/assets/icons/logo.svg");
+  width: 170px;
+  min-width: 170px;
+  height: 30px;
+}
+
+.icon-menu{
+  background-image: url("/src/assets/icons/menu.svg");
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+}
+
+.icon-topup{
+  background-image: url("/src/assets/icons/topup.svg");
+  width: 47px;
+  min-width: 47px;
+  height: 77px;
+}

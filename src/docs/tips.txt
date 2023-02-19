@@ -1,0 +1,6 @@
+Tip #1: Prefer Composables Over Mixins
+Tip #2: Always Clone Objects Between Components
+Tip #3: Use Namespaced Vuex Store Modules
+Tip #4: Write Tests
+Tip #5: Interact With REST API's Via SDK's
+Tip #6: Wrap Third Party Libraries

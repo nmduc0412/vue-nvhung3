@@ -1,0 +1,15 @@
+--- Component Recommended Rules ---
+1. When possible each component should be defined in its own dedicated file (SFC)
+2. Single File components should be named in PascalCase
+- UserList.vue, UserForm.vue
+3. Base components should all start with the same prefix (like Base or App)
+- AppButton.vue (BaseButton.vue), AppPopup.vue (BasePopup.vue)
+4. Component names should always be multi-worded to not conflict with any existing or future HTML elements.
+Don't create a Table or a Button component.
+5. Single instance components should begin with the prefix The: TheHeader.vue, TheSidebar.vue
+6. Tightly coupled child components should be prefixed with their parent component's name
+- For instance a TodoListItem in a TodoList
+- This groups them together and declares them related
+7. Component names should begin with the most top level (usually general) words and end with the most specific
+- Such as SearchWidgetInput, SearchWidgetResultsList, SearchWidget
+- This groups related components together in the file structure
